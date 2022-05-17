@@ -1,9 +1,9 @@
 package cifradocesar;
 
-public class Ventana {
+public class Ventana2 {
     public static void main(String[] args) {
         
-        CifradoCesar vs = new CifradoCesar();
+        CifradoCesar2 vs = new CifradoCesar2();
         
     }
 }

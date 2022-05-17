@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JSeparator;
 import javax.swing.JTextField;
 
-public class CifradoCesar extends JFrame {
+public class CifradoCesar2 extends JFrame {
 
     private JTextField cuadroTexto, cuadroNumero;
     private JButton boton;
@@ -23,7 +23,7 @@ public class CifradoCesar extends JFrame {
     private JLabel texto1, texto2;
     private JLabel separador;
 
-    public CifradoCesar() throws HeadlessException {
+    public CifradoCesar2() throws HeadlessException {
 
         setTitle("Cifrado Cesar");
         setSize(400, 160);
@@ -31,7 +31,7 @@ public class CifradoCesar extends JFrame {
         cuadroNumero = new JTextField(3);
         cuadroTexto = new JTextField(22);
 
-        ImageIcon icono = new ImageIcon(System.getProperty("user.dir") + "\\src\\cifradocesar\\Candado1.png");
+        ImageIcon icono = new ImageIcon(System.getProperty("user.dir") + "\\src\\cifradocesar\\Candado2.png");
 
         boton = new JButton(icono);
         boton.setBackground(Color.GREEN);
