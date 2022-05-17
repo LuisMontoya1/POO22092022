@@ -87,7 +87,7 @@ public class CifradoCesar extends JFrame {
                 } catch (Exception ex) {
                     System.out.println(ex.toString());
                     JOptionPane.showMessageDialog(null, "Introduce un valor correcto",
-                            "Error de catura", JOptionPane.ERROR_MESSAGE);
+                            "Error", JOptionPane.ERROR_MESSAGE);
                 }
             }
 
