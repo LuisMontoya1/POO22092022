@@ -31,7 +31,7 @@ public class CifradoCesar extends JFrame {
         cuadroNumero = new JTextField(3);
         cuadroTexto = new JTextField(22);
 
-        ImageIcon icono = new ImageIcon(System.getProperty("user.dir") + "\\src\\cifradocesar\\Candado.png");
+        ImageIcon icono = new ImageIcon(System.getProperty("user.dir") + "\\src\\cifradocesar\\Candado1.png");
 
         boton = new JButton(icono);
         boton.setBackground(Color.GREEN);
